@@ -1,0 +1,168 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  max-width: 100px;
+  margin-right: 16px;
+}
+
+.product-details {
+  flex-grow: 1;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.product-price {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.product-description {
+  margin: 8px 0;
+  color: #555;
+}
+
+.product-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.product-details-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-details-column {
+  padding: 20px;
+}
+
+.product-images-column {
+  padding: 20px;
+}
+
+.product-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .product-details-card {
+    flex-direction: column;
+  }
+
+  .product-details-column,
+  .product-images-column {
+    padding: 10px;
+  }
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+.search-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: #333;
+}
+
+.search-input {
+  width: 50%;
+  height: 30px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.filter-component {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+select,
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+select {
+  width: 30%;
+}
+
+input {
+  width: 30%;
+}
+
+.price-inputs {
+  display: flex;
+  gap: 7px;
+}
+
+.price-inputs input {
+  flex: 1;
+  width: auto;
+}
