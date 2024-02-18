@@ -27,14 +27,8 @@ This is a React-based e-commerce application that enables users to explore a var
 3. **Install dependencies:**
 
    ```bash
-   npm start
-4. **Install dependencies:**
-
-   ```bash
    npm install
-
 5. **Start the development server:**
-
    ```bash
    npm start
 5. **Open your browser:**
